@@ -93,7 +93,7 @@ const LibraryFile = ({ label, isSelected, onSelect, ...res }: ILibraryFileProps)
         </div>
         <p
           className={cn(
-            'ml-1 w-full truncate font-caption text-xs font-normal text-neutral-850 dark:text-neutral-300',
+            'w-full truncate font-caption text-xs font-normal text-neutral-850 dark:text-neutral-300',
             isSelected && 'font-medium text-neutral-1000 dark:text-white',
           )}
         >

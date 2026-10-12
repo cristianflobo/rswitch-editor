@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/require-await */
 import { useEffect, useState } from 'react'
 
-import { FolderIcon, PlusIcon, StickArrowIcon, VideoIcon } from '../assets'
+import { FolderIcon, PlusIcon, StickArrowIcon } from '../assets'
 import { MenuDivider, MenuItem, MenuRoot, MenuSection } from '../components/_features/[start]/menu'
 import DisplayRecentProjects from '../components/_organisms/display-recent-projects'
 import { ProjectFilterBar } from '../components/_organisms/project-filter-bar'
@@ -68,9 +68,6 @@ const StartScreen = () => {
             </MenuItem>
             <MenuItem ghosted onClick={handleOpenProject}>
               <FolderIcon /> Open
-            </MenuItem>
-            <MenuItem ghosted>
-              <VideoIcon /> Tutorials
             </MenuItem>
           </MenuSection>
           <MenuDivider />

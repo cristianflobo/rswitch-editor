@@ -23,7 +23,7 @@ export const FunctionBlockIcon = (props: IFunctionBlockIconProps) => {
       <title>Function Block Icon</title>
       <path
         d='M26 19.3333V11.1667C26 8.58934 23.851 6.5 21.2 6.5H18C16.9614 6.5 15.9509 6.1725 15.12 5.56667L12.88 3.93333C12.0491 3.3275 11.0386 3 10 3H6.8C4.14903 3 2 5.08934 2 7.66667V19.3333C2 21.9107 4.14903 24 6.8 24H21.2C23.851 24 26 21.9107 26 19.3333Z'
-        fill='#023C97'
+        fill='var(--primary-folder-up)'
       />
       <mask id='mask0_1_137' maskUnits='userSpaceOnUse' x='5' y='5' width='18' height='18'>
         <path d='M23 23V5L5 5V23H23Z' fill='white' />
@@ -32,7 +32,7 @@ export const FunctionBlockIcon = (props: IFunctionBlockIconProps) => {
         <path
           opacity='0.4'
           d='M17 14C17 16.7614 14.7614 19 12 19C9.23858 19 7 16.7614 7 14C7 11.2386 9.23858 9 12 9C14.7614 9 17 11.2386 17 14Z'
-          fill='#B4D0FE'
+          fill='#ffffff'
         />
         <path
           fillRule='evenodd'

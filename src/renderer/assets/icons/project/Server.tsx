@@ -22,13 +22,13 @@ export const ServerIcon = (props: IServerIconProps) => {
       className={cn(`${sizeClasses[size]}`, className)}
       {...res}
     >
-      <rect x='4' y='4' width='20' height='8' rx='2' fill='#023C97' />
-      <rect x='4' y='16' width='20' height='8' rx='2' fill='#023C97' />
-      <circle cx='8' cy='8' r='1.5' fill='#B4D0FE' />
-      <circle cx='8' cy='20' r='1.5' fill='#B4D0FE' />
-      <rect x='12' y='7' width='8' height='2' rx='1' fill='#B4D0FE' opacity='0.6' />
-      <rect x='12' y='19' width='8' height='2' rx='1' fill='#B4D0FE' opacity='0.6' />
-      <path d='M14 12V16' stroke='#B4D0FE' strokeWidth='1.5' strokeLinecap='round' />
+      <rect x='4' y='4' width='20' height='8' rx='2' fill='var(--primary-folder-up)' />
+      <rect x='4' y='16' width='20' height='8' rx='2' fill='var(--primary-folder-up)' />
+      <circle cx='8' cy='8' r='1.5' fill='white' />
+      <circle cx='8' cy='20' r='1.5' fill='white' />
+      <rect x='12' y='7' width='8' height='2' rx='1' fill='white' opacity='0.6' />
+      <rect x='12' y='19' width='8' height='2' rx='1' fill='white' opacity='0.6' />
+      <path d='M14 12V16' stroke='white' strokeWidth='1.5' strokeLinecap='round' />
     </svg>
   )
 }
